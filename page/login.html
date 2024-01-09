@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- remixicon icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/login.css" />
+    <title>MyShop</title>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="/index.html" class="nav__logo">
+          My Shop <i class="ri-store-line"></i>
+        </a>
+        <div class="nav__menu" id="nav-menu ">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="/index.html" class="nav__link active-link">
+                <i class="ri-home-smile-2-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="/page/categories.html" class="nav__link">
+                <i class="ri-price-tag-3-line"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="/page/login.html" class="nav__link">
+                <i class="ri-compass-3-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <i class="ri-moon-line" id="theme-button"></i>
+      </nav>
+    </header>
+    <main>
+      <section class="container login_container">
+        <div class="login_form">
+          <h1 class="login__title">Login</h1>
+          <form class="form_body" action="">
+            <div class="input_row">
+              <label for="Email"> Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your Email"
+              />
+            </div>
+            <div class="input_row">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter the password"
+              />
+            </div>
+            <button class="submit_button" type="submit">Login</button>
+          </form>
+        </div>
+        <div class="login_icon">
+          <img src="/assets/img/loginsvg.jpg" alt="login icon" />
+        </div>
+      </section>
+    </main>
+    <script src="/assets/js/scrollreveal.min.js"></script>
+
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
